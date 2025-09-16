@@ -141,6 +141,29 @@ This is a code challenge project, but contributions for improvements are welcome
 4. Push to the branch
 5. Create a Pull Request
 
-## 📝 License
+## � Possible Improvements
+
+While the current implementation provides a solid foundation, there are several potential areas for enhancement:
+
+### 1. Performance Optimizations
+- Implement caching for frequently accessed documents
+- Add batch processing capabilities for multiple PDFs
+- Optimize PDF text extraction for large documents
+- Implement parallel processing for multiple requests
+
+### 2. Enhanced AI Processing
+- Fine-tune the Gemini model prompts for better accuracy
+- Add support for multiple AI providers as fallback
+- Implement custom training for legal document understanding
+- Add confidence scores for extracted information
+
+### 3. Infrastructure Improvements
+- Migrate to a more robust database (PostgreSQL)
+- Add database migrations support
+- Implement proper logging system
+- Add monitoring and alerting
+- Containerize the application with Docker
+
+## �📝 License
 
 This project is open-source and available under the MIT License.
